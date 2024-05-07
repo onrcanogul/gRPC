@@ -1,0 +1,13 @@
+Google.Protobuf ---> Serialization, deserilization.
+Grpc.Net.Client ---> gRPC library for .NET.
+Grpc.Tools      ---> To build proto files.
+
+
+*protos must be the same on server and client. (copy-paste is the bestway)
+
+
+* add <Protobuf Include="greet.proto" GrpcServices="Client" /> to csproj
+
+
+
+*Unary -> 1Request-1Response
